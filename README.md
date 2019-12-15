@@ -1,6 +1,8 @@
-# Charaka (ಚರಕ)
+# Chaka
 
-Minimalistic and Responsive blog theme for hugo. Uses css framework [Bulma](https://bulma.io/).
+Minimalistic and Responsive blog theme for hugo, forked from [natarajmb/charaka-hugo-theme](https://github.com/natarajmb/charaka-hugo-theme). Removes highlight.js syntax highlighting, adds custom notice shortcode for info boxes. 
+
+Image from original charaka project:
  
 ![](https://github.com/natarajmb/charaka-hugo-theme/blob/master/images/screenshot.png)
 
