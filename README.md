@@ -8,12 +8,28 @@ Image from original charaka project:
 
 ## Getting Started
 
+All instructions to be undertaken from root folder of site.
+
 Clone this repository to your hugo theme directory.
 
 ```
 mkdir themes
 cd themes
-git clone https://github.com/natarajmb/charaka-hugo-theme.git
+git clone https://github.com/natarajmb/charaka-hugo-theme.git chaka
+```
+
+If you use git to version control your site, highly recommended, it's best to add the chaka theme as a submodule.
+
+```
+mkdir themes
+cd themes
+git submodule add https://github.com/zzossig/hugo-theme-zzo.git themes/zzo
+````
+
+## Updating
+
+```
+git submodule update --remote --merge
 ```
 
 ## Configuration
