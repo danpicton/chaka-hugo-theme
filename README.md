@@ -15,7 +15,7 @@ Clone this repository to your hugo theme directory.
 ```
 mkdir themes
 cd themes
-git clone https://github.com/natarajmb/charaka-hugo-theme.git chaka
+git clone https://github.com/danpicton/chaka-hugo-theme chaka
 ```
 
 If you use git to version control your site, highly recommended, it's best to add the chaka theme as a submodule.
@@ -23,7 +23,7 @@ If you use git to version control your site, highly recommended, it's best to ad
 ```
 mkdir themes
 cd themes
-git submodule add https://github.com/zzossig/hugo-theme-zzo.git themes/zzo
+git submodule add https://github.com/danpicton/chaka-hugo-theme chaka
 ````
 
 ## Updating
