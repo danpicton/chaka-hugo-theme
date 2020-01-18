@@ -76,11 +76,12 @@ googleAnalytics = ""
 
 ## Front matter parameters
 Worth mentioning are:
-| | | |
-| --- | --- | --- |
-| hidden | "true"/"false" | Hides page from site index list and search engine crawlers |
-| index | "true"/"false" | Indexes page for search engine crawlers |
-| showthedate | "true"/"false" | Displays the creation date of a page (defaults to true) |
+
+|             |                |                                           |
+|-------------|----------------|-------------------------------------------|
+| hidden      | "true"/"false" | Hides page from front page/search engines |
+| index       | "true"/"false" | Forces index for search engines if hidden |
+| showthedate | "true"/"false" | Shows date of creation (default: "true")  |
 
 ## Build
 
