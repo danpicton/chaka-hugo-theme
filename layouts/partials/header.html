@@ -3,8 +3,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Don't index if hidden -->
-<meta content="{{ if .Params.hidden }}noindex{{ else }}index{{ end }}, follow" name="robots">
+<!-- Don't index if hidden, unless specified -->
+<meta content="{{ if or (not .Params.hidden) (.Params.index) }}index{{ else }}noindex{{ end }}, follow" name="robots">
 
 {{ $scratch := newScratch }}
 {{ $scratch.Set "baseURL" .Site.BaseURL }}
