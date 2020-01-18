@@ -1,5 +1,5 @@
+{{ partial "header" . }}
 <div class="container">
-  {{ partial "header" . }}
   {{ partial "nav" . }}
   <main class="container">
       {{ if .Site.RegularPages }}
@@ -30,5 +30,5 @@
       {{ end }}
     </main>
   {{ partial "pager" . }}
-  {{ partial "footer" . }}
 </div>
+{{ partial "footer" . }}
